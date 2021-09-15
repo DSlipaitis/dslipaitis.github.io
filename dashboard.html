@@ -1,46 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-<nav>
-  <div class="nav"></div>
-  <ul>
-    <li><h2>Daivaras Slipaitis Website</h2></li>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="profile.html">Profile</a></li>
-    <li><a class="active" href="dashboard.html">Dashboard</a></li>
-    <li><a href="faq.html">FAQ</a></li>
-    <li><a href="blog.html">Blog</a></li>
-    <img src=logo.jpg>
-  </ul>
-  </div>
-</nav>
-<style>
-  p {
-    color: red;
-    font-size: x-large;
-    background-color: blanchedalmond;
-
-  }
-</style>
-
 <head>
-  <link rel="stylesheet" type="text/css" href="style.css" />
-  <main>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Daivaras-Slipaitis</title>
-
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Daivaras-Slipaitis</title>
 </head>
-<div class="container">
-
-  <body>
-    <div class="main">
-      </main>
-      <h1>Home</h1>
-      <p> H </p>
+  <header>
+    <nav>
+        <ul class="nav_links">
+          <li><h2>Daivaras Slipaitis Website</h2></li>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="profile.html">Profile</a></li>
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <img src=logo.jpg>
+        </ul>
+    </nav>
+  </header>
+      <style>
+        table, td, th {  
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgb(30, 82, 6);
+    color: white;
+  }
+  
+  th, td {
+    padding: 15px;
+  }
+        </style>
+        </head>
+        <div class="page_content">
+        <table>
+          <tr>
+            <th>Quartile</th>
+            <th>Course</th>
+            <th>EC</th>
+            <th>Exam</th>
+            <th>Grade</th>
+          </tr>
+        <body>
+          <tr>
+            <td rowspan="3">1</td>
+            <td>Programe and Carrier Orientation</td>
+            <td>2.5</td>
+            <td>Assesment</td>
+            <td>----</td>
+          </tr>
+          <tr>
+            <td>Computer Science Basics</td>
+            <td>5</td>
+            <td>Written Exam</td>
+            <td>----</td>
+          </tr>
+          <tr>
+            <td>Programming Basics</td>
+            <td>5</td>
+            <td>Case Study</td>
+            <td>----</td>
+          </tr>
+          <tr>
+            <td rowspan="2">2.</td>
+            <td rowspan="2">Object Orientated Programing</td>
+            <td rowspan="2" >10</td>
+            <td>Case study</td>
+            <td>----</td>
+          </tr>
+          <tr>
+            <td>Project</td>
+            <td>----</td>
+          </tr>
+          <tr>
+            <td rowspan="4">3.</td>
+            <td>Framework Development 1</td>
+            <td>5</td>
+            <td>Case Study</td>
+            <td>----</td>
+          </tr>
+          <tr>
+            <td rowspan="3">Framework Project 1</td>
+            <td rowspan="3">7.5</td>
+            <td>Project</td>
+            <td>----</td>
+          </tr>
+          <tr>
+            <td>Assesment</td>
+            <td>----</td>
+          </tr>
+          <tr>
+            <td>Report</td>
+            <td>----</td>
+          </tr>
+          <tr>
+            <td rowspan="3">4. </td>
+            <td rowspan="3">Framework Project 2</td>
+            <td rowspan="3">10</td>
+            <td>Portfolio</td>
+            <td>----</td>
+          </tr>
+          <tr>
+            <td>Project</td>
+            <td>----</td>
+          </tr>
+          <tr>
+            <td>Assessment</td>
+            <td>----</td>
+          </tr>
+          <tr>
+            <td>Quartile</td>
+            <td>The Entire Year</td>
+            <td>12.5</td>
+            <td>Portfolio</td>
+          </tr>
+        </body>
+        </table>
     </div>
-  </body>
 </div>
-
+</div>
+<footer>
+  <div class="footer-right">
+    <ul>
+      <li><a href="https://hz.nl/en/study-programmes/it">The HZ HBO-ICT Course and Examination Regulations</a></li>
+      <li><a href="https://hz.nl/uploads/documents/Regelingen/EN/OERS/Uitvoeringsregeling-HZ-OER-IBMS-English.pdf">The Implementation Regulations</a></li>
+      <li><a href="https://hz.nl/en/lectureships/onderwijsexcellentie">This Learn environment</a></li>
+    </ul>
+    <div class="footer-left">
+      <ul>
+      <li><a href="">Teams environment </a>
+      <li><a href="https://apps.hz.nl/angular/studievoortgang/studiestatus">MyHZ Study Progress </a>
+      <li><a href="https://github.com/DSlipaitis">Github </a>
+      </ul>
+    </div>
+</footer>
+</body>
+</html>
 </html>

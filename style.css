@@ -1,66 +1,75 @@
+
+header ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 32px;
+  text-decoration: none;
+}
+header img {
+  float: right;
+  height: 82px;
+  width: 95px;
+}
 body {
-    background-color: rgb(3, 5, 156);
+    background-color: rgb(6, 83, 38);
   }
-header {
-    color: white;
-    width: 50%;
+
+  .page_content {
+    margin-top: 100px;
+  }
+
+li {
+  float: left;
 }
 h1 {
-    font-size: 48px;
-    color: DarkOliveGreen;
+    font-size: 44px;
+    color: white; 
+    text-align: center;
 }
-img {
-    width: 60px;
-    height: 66px;
-    position: fixed;
-    left:1470px;
+p {
+    font-size: 20px;
+    color: white; 
+    text-align: center;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(43, 8, 243);
-  }
-li {
-    float: left;
-  }
-  .nav {
-      float: left;
-  }
-h2 { 
+.column {
+  float: left;
+  width: 50%;
+}
+header h2 { 
     color: white;
     font-style: times;
     padding: 1px;
-    margin: 28px;
+    margin: 26px;
     font-family: impact;
 }
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 10px 28px;
-    margin: 20px;
-    text-decoration: none;
-    font-style: times;
+  footer{
+  background-color: #333;
+  height: auto;
+  width: 100%;
+  padding-top: 5px;
+  color: rgb(255, 255, 255);
   }
-  .footer {
-    position: fixed;
-    margin: 50;
-    padding: 50;
-    left: 40;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(43, 8, 243);
-    color: white;
-    text-align: center;
- }
-
-footer a{
-    color: white;
-    display: block;
-    
+footer ul{
+  list-style-type: none;
+  display: flex;
 }
+footer li, footer a, footer div{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
 li a:hover:not(.active) {
     background-color: rgb(8, 9, 15);
 }
