@@ -101,3 +101,10 @@ table {
 tr, td {
   padding: 15px;
 }
+td.tdinput
+{
+    border:1px solid #ddd;
+}
+button{
+  font-size: 10px;
+}
