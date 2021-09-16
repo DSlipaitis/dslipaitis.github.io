@@ -44,11 +44,13 @@ p {
     font-size: 20px;
     color: #05386B; 
     text-align: center;
-    font-family: 'Pacifico', cursive;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
     margin: auto;
+    font-size: 20px;
 }
 .column {
-  float: left;
+  
+  padding: 1px 16px;
   width: 70%;
 }
 header h2 { 
@@ -56,7 +58,8 @@ header h2 {
     font-style: times;
     padding: 1px;
     margin: 26px;
-    font-family: 'MedievalSharp', cursive;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 30px;
 }
   footer{
   background-color: #379683;
@@ -122,4 +125,7 @@ img.a {
   vertical-align: baseline;
   float: right;
 }
-
+img.b {
+  vertical-align: center;
+  float: left;
+}
